@@ -36,11 +36,6 @@ javac -d out $(find src -name "*.java")      # Linux/Mac
 java -cp out treinamento.Main
 ```
 No Windows (PowerShell):
-```powershell
-mkdir out
-javac -d out (Get-ChildItem -Recurse src -Filter *.java).FullName
-java -cp out treinamento.Main
-```
 
 ## Cenarios demonstrados no Main
 1. Listagem do catalogo: nenhum video carregado.

@@ -18,7 +18,7 @@ public class VideoProxy implements VideoTreinamento {
     private final String caminhoArquivo;
     private final boolean restritoAGestores;
 
-    private VideoReal videoReal; // null ate o primeiro uso (lazy)
+    private VideoReal videoReal;
 
     public VideoProxy(String titulo, String caminhoArquivo, boolean restritoAGestores) {
         this.titulo = titulo;

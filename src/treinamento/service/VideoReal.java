@@ -20,7 +20,7 @@ public class VideoReal implements VideoTreinamento {
     private void carregarDoDisco() {
         System.out.println("   [VideoReal] Carregando '" + caminhoArquivo + "' na memoria (operacao pesada)...");
         try {
-            Thread.sleep(800); // simula o custo de carregar um arquivo gigante
+            Thread.sleep(800);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
